@@ -8,16 +8,7 @@
 </head>
 
 <style>
-  container {
-  display: grid;
-  grid-template-areas:
-    "header header"
-  }
-
-  .container div.header {
-  grid-area: header;
-  text-align: center;
-}
+ 
 
   .city {
   background-color: rgb(53, 144, 197);
@@ -32,12 +23,22 @@ p.a {
   font: italic small-caps bold 12px/30px Georgia, serif;
 }
 
+.mycontainer {
+  display: flex;
+}
+.mycontainer > div {
+  width:800px;
+  height:300px;
+}
+
+
 </style>
 
 <body>  
 </div>
+ <div class="mycontainer">
 <div class="city">
-<div class="container">
+
 <div class="header"><h1>My favourite things</h1>
 <a href="index.html">Home</a>
 <a href="gallery.html">Gallery Page</a>
@@ -55,8 +56,8 @@ p.a {
 <h2>recording/mixing music</h2>  
 <p class="a">My intrest of mixing music started at the bassist's house. The band started to do some recording with his gear. And at that time, I learned how to pan audio in the headphones. I found it a fun experence, becuase I was spinning around the audio in the headphones. I thaught it was the coolest thing ever, but it gave the bassist a headache. On that day, my interest of recording and mixing music started and it's still going </p>
 </div>
-
-
+</div>
+     
 
 </body>
 </html>
